@@ -14,7 +14,7 @@ Miniping is a powerful e-commerce solution designed for a seamless shopping expe
 -PayPal/Credit Card Integration: Accept payments securely.<br/>
 -Database Seeder: Simplify testing and development with sample data.<br/>
 
-Getting Started<br/>
+#Getting Started<br/>
 Clone: git clone https://github.com/your-username/miniping.git<br/>
 Install: npm install<br/>
 Set up database and environment variables.<br/>
