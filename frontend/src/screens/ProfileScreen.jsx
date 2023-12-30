@@ -10,7 +10,7 @@ import {setCredentials} from "../slices/authSlice";
 import styles from "./ProfileScreen.module.css";
 import {Link} from "react-router-dom";
 
-const ProfileScreen = () => {
+function ProfileScreen() {
     const [name, setName] = useState("");
     const [email, setEmail] = useState("");
     const [password, setPassword] = useState("");
@@ -159,6 +159,6 @@ const ProfileScreen = () => {
             </div>
         </div>
     );
-};
+}
 
 export default ProfileScreen;

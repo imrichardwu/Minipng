@@ -6,7 +6,7 @@ import Message from "../components/Message";
 import {addToCart, removeFromCart} from "../slices/cartSlice";
 import styles from "./CartScreen.module.css";
 
-const CartScreen = () => {
+function CartScreen() {
     const navigate = useNavigate();
     const dispatch = useDispatch();
 
@@ -143,6 +143,6 @@ const CartScreen = () => {
             </div>
         </div>
     );
-};
+}
 
 export default CartScreen;

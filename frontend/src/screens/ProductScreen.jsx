@@ -2,7 +2,6 @@ import {useState} from "react";
 import {useNavigate, useParams} from "react-router-dom";
 import {Link} from "react-router-dom";
 import {useDispatch, useSelector} from "react-redux";
-import {Row, Col, Image, ListGroup, Card, Button, Form} from "react-bootstrap";
 import {toast} from "react-toastify";
 import {
     useGetProductDetailsQuery,
@@ -15,7 +14,7 @@ import Meta from "../components/Meta";
 import {addToCart} from "../slices/cartSlice";
 import styles from "./ProductScreen.module.css";
 
-const ProductScreen = () => {
+function ProductScreen() {
     const {id: productId} = useParams();
 
     const dispatch = useDispatch();
@@ -281,6 +280,6 @@ const ProductScreen = () => {
             )}
         </>
     );
-};
+}
 
 export default ProductScreen;

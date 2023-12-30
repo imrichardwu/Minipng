@@ -11,7 +11,7 @@ import {
 } from "../../slices/productsApiSlice";
 import styles from "./ProductEditScreen.module.css";
 
-const ProductEditScreen = () => {
+function ProductEditScreen() {
     const {id: productId} = useParams();
 
     const [name, setName] = useState("");
@@ -190,6 +190,6 @@ const ProductEditScreen = () => {
             </FormContainer>
         </>
     );
-};
+}
 
 export default ProductEditScreen;

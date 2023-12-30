@@ -13,7 +13,7 @@ import {
 } from "../slices/ordersApiSlice";
 import styles from "./OrderScreen.module.css";
 
-const OrderScreen = () => {
+function OrderScreen() {
     const {id: orderId} = useParams();
 
     const {
@@ -256,6 +256,6 @@ const OrderScreen = () => {
             </div>
         </div>
     );
-};
+}
 
 export default OrderScreen;

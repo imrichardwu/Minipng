@@ -1,11 +1,11 @@
-import styles from './Message.module.css'; // Import the CSS module
+import styles from "./Message.module.css"; // Import the CSS module
 
-const Message = ({ variant, children }) => {
-  return <div className={styles[variant]}>{children}</div>;
-};
+function Message({variant, children}) {
+    return <div className={styles[variant]}>{children}</div>;
+}
 
 Message.defaultProps = {
-  variant: 'info',
+    variant: "info",
 };
 
 export default Message;

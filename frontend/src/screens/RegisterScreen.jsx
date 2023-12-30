@@ -8,7 +8,7 @@ import {setCredentials} from "../slices/authSlice";
 import {toast} from "react-toastify";
 import styles from "./RegisterScreen.module.css";
 
-const RegisterScreen = () => {
+function RegisterScreen() {
     const [name, setName] = useState("");
     const [email, setEmail] = useState("");
     const [password, setPassword] = useState("");
@@ -117,6 +117,6 @@ const RegisterScreen = () => {
             </div>
         </FormContainer>
     );
-};
+}
 
 export default RegisterScreen;

@@ -6,7 +6,7 @@ import CheckoutSteps from "../components/CheckoutSteps";
 import {savePaymentMethod} from "../slices/cartSlice";
 import styles from "./PaymentScreen.module.css";
 
-const PaymentScreen = () => {
+function PaymentScreen() {
     const navigate = useNavigate();
     const cart = useSelector((state) => state.cart);
     const {shippingAddress} = cart;
@@ -54,6 +54,6 @@ const PaymentScreen = () => {
             </form>
         </FormContainer>
     );
-};
+}
 
 export default PaymentScreen;

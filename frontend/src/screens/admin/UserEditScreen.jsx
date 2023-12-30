@@ -12,7 +12,7 @@ import {
 } from "../../slices/usersApiSlice";
 import styles from "./UserEditScreen.module.css";
 
-const UserEditScreen = () => {
+function UserEditScreen() {
     const {id: userId} = useParams();
     const [name, setName] = useState("");
     const [email, setEmail] = useState("");
@@ -108,6 +108,6 @@ const UserEditScreen = () => {
             </div>
         </>
     );
-};
+}
 
 export default UserEditScreen;

@@ -15,7 +15,7 @@ import {toast} from "react-toastify";
 import {Link} from "react-router-dom";
 import styles from "./ProductListScreen.module.css";
 
-const ProductListScreen = () => {
+function ProductListScreen() {
     const {pageNumber} = useParams();
 
     const {data, isLoading, error, refetch} = useGetProductsQuery({
@@ -118,6 +118,6 @@ const ProductListScreen = () => {
             )}
         </>
     );
-};
+}
 
 export default ProductListScreen;

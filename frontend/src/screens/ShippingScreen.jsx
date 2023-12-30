@@ -6,7 +6,7 @@ import CheckoutSteps from "../components/CheckoutSteps";
 import {saveShippingAddress} from "../slices/cartSlice";
 import styles from "./ShippingScreen.module.css";
 
-const ShippingScreen = () => {
+function ShippingScreen() {
     const cart = useSelector((state) => state.cart);
     const {shippingAddress} = cart;
 
@@ -85,6 +85,6 @@ const ShippingScreen = () => {
             </form>
         </FormContainer>
     );
-};
+}
 
 export default ShippingScreen;

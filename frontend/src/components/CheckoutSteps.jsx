@@ -1,7 +1,7 @@
 import {Link} from "react-router-dom";
 import styles from "./CheckoutSteps.module.css";
 
-const CheckoutSteps = ({step1, step2, step3, step4}) => {
+function CheckoutSteps({step1, step2, step3, step4}) {
     return (
         <nav className={styles.nav}>
             <li className={styles.navItem}>
@@ -45,6 +45,6 @@ const CheckoutSteps = ({step1, step2, step3, step4}) => {
             </li>
         </nav>
     );
-};
+}
 
 export default CheckoutSteps;

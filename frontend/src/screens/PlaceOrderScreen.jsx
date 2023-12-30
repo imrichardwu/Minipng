@@ -10,7 +10,7 @@ import {useCreateOrderMutation} from "../slices/ordersApiSlice";
 import {clearCartItems} from "../slices/cartSlice";
 import styles from "./PlaceOrderScreen.module.css";
 
-const PlaceOrderScreen = () => {
+function PlaceOrderScreen() {
     const navigate = useNavigate();
 
     const cart = useSelector((state) => state.cart);
@@ -169,6 +169,6 @@ const PlaceOrderScreen = () => {
             </div>
         </>
     );
-};
+}
 
 export default PlaceOrderScreen;

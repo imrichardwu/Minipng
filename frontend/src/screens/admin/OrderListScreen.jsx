@@ -5,7 +5,7 @@ import {useGetOrdersQuery} from "../../slices/ordersApiSlice";
 import styles from "./OrderListScreen.module.css";
 import {Link} from "react-router-dom";
 
-const OrderListScreen = () => {
+function OrderListScreen() {
     const {data: orders, isLoading, error} = useGetOrdersQuery();
 
     return (
@@ -72,6 +72,6 @@ const OrderListScreen = () => {
             )}
         </>
     );
-};
+}
 
 export default OrderListScreen;

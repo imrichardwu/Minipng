@@ -1,12 +1,11 @@
-export const addDecimals = (num) => {
+export function addDecimals(num) {
     return (Math.round(num * 100) / 100).toFixed(2);
-};
+}
 
-export const updateCart = (state) => {
-    const itemsPrice = state.cartItems.reduce(
-        (acc, item) => acc + (item.price * 100 * item.qty) / 100,
-        0
-    );
+export function updateCart(state) {
+    const itemsPrice = state.cartItems.reduce(function (acc, item) {
+        return acc + (item.price * 100 * item.qty) / 100;
+    }, 0);
     state.itemsPrice = addDecimals(itemsPrice);
 
     // Calculate the shipping price
@@ -25,4 +24,4 @@ export const updateCart = (state) => {
     localStorage.setItem("cart", JSON.stringify(state));
 
     return state;
-};
+}

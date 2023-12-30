@@ -1,6 +1,3 @@
-import React from "react";
-import {LinkContainer} from "react-router-bootstrap";
-import {Table, Button} from "react-bootstrap";
 import {FaTrash, FaEdit, FaCheck, FaTimes} from "react-icons/fa";
 import Message from "../../components/Message";
 import Loader from "../../components/Loader";
@@ -12,7 +9,7 @@ import {toast} from "react-toastify";
 import {Link} from "react-router-dom";
 import styles from "./UserListScreen.module.css";
 
-const UserListScreen = () => {
+function UserListScreen() {
     const {data: users, refetch, isLoading, error} = useGetUsersQuery();
 
     const [deleteUser] = useDeleteUserMutation();
@@ -94,6 +91,6 @@ const UserListScreen = () => {
             )}
         </>
     );
-};
+}
 
 export default UserListScreen;
