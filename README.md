@@ -1,4 +1,4 @@
-# mini-ping
+# Miniping
 
 # Miniping: Full Featured E-commerce Platform
 
