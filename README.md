@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # mini-ping
 =======
 # Miniping: Full Featured E-commerce Platform
