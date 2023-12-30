@@ -1,6 +1,5 @@
-<<<<<<< HEAD
-# mini-ping
-=======
+# Miniping
+
 # Miniping: Full Featured E-commerce Platform
 
 Miniping is a robust e-commerce platform designed to provide a seamless shopping experience for both customers and administrators. With a comprehensive set of features, Miniping ensures your online store operates smoothly and efficiently.
@@ -26,4 +25,4 @@ Miniping is a robust e-commerce platform designed to provide a seamless shopping
 2. **Install dependencies:** `npm install`
 3. **Set up your database:** Configure environment variables.
 4. **Run the application:** `npm start`
->>>>>>> 369953b98dc8b16bfd8565331cc171ae97c64c46
+
