@@ -1,5 +1,5 @@
 # mini-ping
-=======
+
 # Miniping: Full Featured E-commerce Platform
 
 Miniping is a robust e-commerce platform designed to provide a seamless shopping experience for both customers and administrators. With a comprehensive set of features, Miniping ensures your online store operates smoothly and efficiently.
