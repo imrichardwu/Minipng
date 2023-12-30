@@ -1,0 +1,30 @@
+.container {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+  justify-content: center;
+}
+
+.column {
+  flex: 0 0 50%;
+  max-width: 50%;
+  /padding-right: 15px;
+  padding-left: 15px;
+  box-sizing: border-box;
+}
+
+@media (max-width: 768px) {
+  .column {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+}

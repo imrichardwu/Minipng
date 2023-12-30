@@ -1,0 +1,87 @@
+/* PlaceOrderScreen.module.css */
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.col {
+    flex: 1;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.col8 {
+    flex: 0 0 66.666667%;
+    max-width: 66.666667%;
+}
+
+.container {
+    flex: 0 0 33.333333%;
+    max-width: 33.333333%;
+}
+
+.listGroup {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    background-color: #f8f9fa;
+    border-radius: 0.25rem;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+}
+
+.listGroupItem {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.75rem 1.25rem;
+    margin-bottom: 1rem;
+    background-color: #fff;
+    border: 1px solid rgba(0, 0, 0, 0.125);
+    border-radius: 0.25rem;
+}
+
+.listGroupItem:last-child {
+    margin-bottom: 0;
+}
+
+.listGroupItemTitle {
+    font-size: 1.25rem;
+    font-weight: 500;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0, 0, 0, 0.125);
+    border-radius: 0.25rem;
+}
+
+.btnBlock {
+    display: block;
+    width: 100%;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #212529;
+    background-color: #007bff;
+    border: 1px solid #007bff;
+    border-radius: 0.25rem;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+        border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.imgFluid {
+    width: 50%;
+    height: auto;
+}
+
+.rounded {
+    border-radius: 0.25rem;
+}
