@@ -1,0 +1,123 @@
+.carousel {
+  overflow: hidden;
+  position: relative;
+}
+
+.inner {
+  white-space: nowrap;
+  transition: transform 0.3s;
+}
+
+.carouselItem {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  height: 300px;
+  color: #fff;
+}
+
+.active {
+  opacity: 1;
+}
+
+.indicators {
+  display: flex;
+  justify-content: center;
+}
+
+.indicator {
+  margin: 5px;
+  border-radius: 20px;
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  margin: 0 8px;
+  background: #333;
+  border-radius: 50%;
+  opacity: 0.25;
+  cursor: pointer;
+}
+
+.indicator.active {
+  background: black;
+  opacity: 1;
+}
+
+.carouselImage {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.carouselButton {
+  position: absolute;
+  top: 45%;
+  z-index: 2;
+  background-color: hsla(0, 1%, 71%, 0.75);
+  color: #333;
+  border: none;
+  cursor: pointer;
+  padding: 10px 15px;
+  border-radius: 50%;
+}
+
+.carouselButton:hover {
+  background: hsla(0, 0%, 100%, 0.75);
+  color: #333;
+}
+
+.carouselButton.previous {
+  left: 10px;
+}
+
+.carouselButton.next {
+  right: 10px;
+}
+
+.loader {
+  border: 16px solid #f3f3f3;
+  border-top: 16px solid #808080;
+  border-radius: 50%;
+  width: 120px;
+  height: 120px;
+  animation: spin 2s linear infinite;
+  margin: auto;
+  margin-top: 25%;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.carouselItem {
+  padding: 0;
+  margin: 0;
+}
+
+.carouselImage {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.carouselItem {
+  position: relative;
+}
+
+.caption {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  text-align: left;
+}
+
+.textBlack {
+  color: black;
+  font-size: 1.2rem;
+  text-align: center;
+}

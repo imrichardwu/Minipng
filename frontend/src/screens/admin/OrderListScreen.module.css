@@ -1,0 +1,46 @@
+/* OrderListScreen.module.css */
+
+.table {
+    width: 100%;
+    margin-bottom: 1rem;
+    color: #212529;
+    border-collapse: collapse;
+}
+
+.tableTh,
+.tableTd {
+    padding: 0.75rem;
+    vertical-align: top;
+    border-top: 1px solid #dee2e6;
+}
+
+.tableHead {
+    vertical-align: bottom;
+    border-bottom: 2px solid #dee2e6;
+}
+
+.tableSm {
+    min-width: 0;
+    display: table;
+    width: 100%;
+    max-width: 100%;
+    margin-bottom: 1rem;
+    background-color: transparent;
+}
+
+.tableSm .tableTh,
+.tableSm .tableTd {
+    padding: 0.3rem;
+}
+
+.button {
+    display: inline-block;
+    color: #fff;
+    background-color: #007bff;
+    border-color: #007bff;
+    padding: 0.375rem 0.75rem;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 0.25rem;
+    cursor: pointer;
+}

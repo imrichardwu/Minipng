@@ -1,0 +1,22 @@
+.nav {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1.5rem;
+}
+
+.navItem {
+    list-style: none;
+    margin: 0 1rem;
+}
+
+.navLink {
+    color: #grey;
+    text-decoration: none;
+}
+
+.navLinkDisabled {
+    color: #6c757d;
+    pointer-events: none;
+    cursor: default;
+    text-decoration: none;
+}

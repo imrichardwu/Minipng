@@ -1,0 +1,57 @@
+/* CartScreen.module.css */
+.container {
+    display: flex;
+    flex-direction: row;
+}
+
+.column {
+    flex: 1;
+}
+
+.column2 {
+    flex: 2;
+}
+
+.column3 {
+    flex: 3;
+}
+
+.image {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.button {
+    background-color: rgba(24, 106, 184, 255);
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.button:disabled {
+    background-color: #cccccc;
+    color: #666666;
+}
+
+.list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.listItem {
+    margin: 10px 0;
+}
+
+.link {
+    text-decoration: none;
+}
+
+.link:hover {
+    text-decoration: underline;
+}
